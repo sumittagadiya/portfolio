@@ -1,0 +1,155 @@
+{
+  "main": {
+    "name": "Sumit Tagadiya",
+    "occupation": "Self Learner",
+    "description": "Looking for Machine Learning/Data Science job role as a fresher/fulltime.",
+    "image": "profile.jpg",
+    "bio": "My name is Sumit, I'm a Machine learning fresher. Currently I'm looking for Machine Learning/Data science Job Role.",
+    "contactmessage": "Get in touch with me to receive further details, Ping me on LinkedIn for further details about projects.",
+    "email": "tagadiyasumit@gmail",
+    "phone": "+91 7043105881",
+    "address": {
+      "street": "Ashray 10 New Ranip",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "zip": "382470"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "https://github.com/sumittagadiya/Resume/raw/main/sumit_cv.pdf",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/SumitTagadiya",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/sumittagadiya/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/mr.360___ab17/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/sumittagadiya",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "K J Institute of engineering and Technology(GTU), Vadodara, Gujarat",
+        "degree": "Bachelor's Degree, Computer Science",
+        "graduated": "May 2020",
+        "description": "Graduated with Distinction"
+      }
+    ],
+    "work": [
+      {
+        "company": "Clever Programmer",
+        "title": "JavaScript/Python Specialist",
+        "years": "May 2019 - Present",
+        "description": "Transforming the lives of people by teaching them how to become successful developers no matter if they are a beginner or not!"
+      },
+      {
+        "company": "NazaWEb",
+        "title": "Founder / Developer",
+        "years": "Jan 2019 - Present",
+        "description": "Helping businesses showing their best selves to clients."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "100%"
+      },
+      {
+        "name": "Machine Learning",
+        "level": "95%"
+      },
+      {
+        "name": "Deep Learning",
+        "level": "90%"
+      },
+      {
+        "name": "Flask",
+        "level": "80%"
+      },
+      {
+        "name": "Git",
+        "level": "75%"
+      },
+      {
+        "name": "Linux",
+        "level": "90%"
+      }
+      
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Stack Overflow Search Engine based on Semantic meaning",
+        "category": "Natural Language Processing,Tensorflow,Cosine Similarity",
+        "image": "stackoverflow.jpeg",
+        "Description": "Developed a Search Engine on Stackoverflow Data based on the semantic meaning of the question. When a user searches any question then the search engine would give the most similar results based on semantic meaning rather than keyword matching. The main task of this project is to understand the content of what the user is trying to search for and then return the most similar results in minimal time based on the user’s query using semantic similarity. Glove pre-trained vectors, TF-IDF, Gensim Word2Vec model, and Tensorflow Hub module have been used for sentence encoding. To similarity measure, Cosine similarity has used. Deployed the whole project on Heroku and made it end to end for a better experience. Published a Blog on medium explaining my approach to this project",
+
+        "url": "https://github.com/sumittagadiya/Stack-overflow-semantic-search-engine"
+      },
+      
+      {
+        "title": "English to Italian Machine Translation with Vanilla and Attention Mechanism",
+        "category": "Research paper based approach,Language Transaltor, Seq-Seq Model, Encoder-Decoder, Attention Mechanism",
+        "image": "language_translator.png",
+        "Description": "Developed a model using Vanilla Encoder-Decoder and Attention mechanism with LSTM. Implemented Research paper of Bahdanau’s Attention Mechanism with three scoring functions named Dot Scoring, General Scoring, and Concat Scoring from Scratch To compare the results of all these Scoring functions and vanilla Encoder-Decoder BLUE score has been used for performance measure.",
+        "url": ""
+      },
+      {
+        "title": "Image Segmentation on Indian Traffic Data",
+        "category": "Computer Vision, CNN, Research paper based approach",
+        "image": "segmentation.png",
+        "Description": "Implemented CANET model by referring Attention-guided Chained Context Aggregation for Semantic Segmentation research paper from scratch. For Performance measure, IOU(Intersection Over Union) Score has used. The model will identify 21 different objects from image/video.",
+        "url": ""
+      },
+      {
+        "title": "Document(Text) Classification using CNN",
+        "category": "Text preprocessing, CNN",
+        "image": "document_cls.png",
+        "Description": "Trained two Deep CNN models one on word-level embedding and the second on character level embedding. In this task Data set contains 20 Newsgroups text data so the model predicts text into 20 different classes, Also Too much Preprocessing was required in this Task. Pre-trained Glove Vectors with 300d has been used for text embeddings. Model built using Keras functional API.",
+        "url": ""
+      },
+      {
+        "title": "CNN on CIFAR Dataset",
+        "category": "Multiclass Classification, CNN, Research paper based approach",
+        "image": "cifar.png",
+        "Description": "Implemented Densenet Model by referring Densely Connected Convolutional Networks research paper and trained it from scratch. Densenet architecture is made by 2 blocks named Dense block and Transition block. Output block contains BatchNormalization, GlobalAvgPooling followed by a Softmax layer. By implementing Densenet Architecture I got 90% test accuracy which is pretty high.",
+        "url": ""
+      },
+      {
+        "title": "Microsoft Malware Detection",
+        "category": "Multiclass Classification, Training using XGBoost",
+        "image": "malware.png",
+        "Description": "Implemented Multiclass classification Model using XGBoost Algorithm to classify different malware files into respected classes. There was a total of 9 Nine malware classes. Dataset Size was too large, Almost around 200 GB. Out of which 50GB of data was bytes files and 150GB of data was asm files. The main objective of this project is to minimize multiclass log loss as much as possible. I got a minimum logloss of 0.001. To get this much minimum log loss I made some high-level features like image feature from byte file and asm file etc. I have also used some feature selection techniques like the Chi-Square test etc.",
+        "url": ""
+      }
+
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Naz must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
