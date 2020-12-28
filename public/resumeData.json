@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Sumit Tagadiya",
-    "occupation": "Self Learner",
-    "description": "Looking for Machine Learning/Data Science job role as a fresher/fulltime.",
+    "occupation": "Machine Learning/Data Science Fresher",
+    "description": "I am actively looking for a Machine Learning/Data Science job role.",
     "image": "profile.jpg",
-    "bio": "My name is Sumit, I'm a Machine learning fresher. Currently I'm looking for Machine Learning/Data science Job Role.",
+    "bio": "My name is Sumit, I have completed my Bachelor degree in computer engineering in august 2020. I am passionate and highly-motivated about machine learning and deep learning.I have both Theoretical and practical knowledge of Machine learning and deep learning. I have done enough research in machine learning/deep learning that I have made collabs for various ML/DL algorithms from scratch without using external libraries and I have also implemented two research papers one on Image segmentation and another on NLP. I know the entire data science life cycle, starting from a collection of data to production. One of the reason behind my enthusiasm about AI is getting to be able to solve real world problems using state of the art technology. It's really exciting to make a better world with state of the art technolgy",
     "contactmessage": "Get in touch with me to receive further details, Ping me on LinkedIn for further details about projects.",
     "email": "tagadiyasumit@gmail",
     "phone": "+91 7043105881",
@@ -51,16 +51,46 @@
     ],
     "work": [
       {
-        "company": "Clever Programmer",
-        "title": "JavaScript/Python Specialist",
-        "years": "May 2019 - Present",
-        "description": "Transforming the lives of people by teaching them how to become successful developers no matter if they are a beginner or not!"
+        "company": "Stack Overflow Search Engine based on Semantic meaning",
+        "title": "Natural Language Processing,Tensorflow,Cosine Similarity, Word2Vec",
+        "years": "Sept 2020 - Oct 2020",
+        "description": "Developed a Search Engine on Stackoverflow Data based on the semantic meaning of the question. When a user searches any question then the search engine would give the most similar results based on semantic meaning rather than keyword matching. The main task of this project is to understand the content of what the user is trying to search for and then return the most similar results in minimal time based on the user’s query using semantic similarity. Glove pre-trained vectors, TF-IDF, Gensim Word2Vec model, and Tensorflow Hub module have been used for sentence encoding. To similarity measure, Cosine similarity has used. Deployed the whole project on Heroku and made it end to end for a better experience. Published a Blog on medium explaining my approach to this project"
       },
       {
-        "company": "NazaWEb",
-        "title": "Founder / Developer",
-        "years": "Jan 2019 - Present",
-        "description": "Helping businesses showing their best selves to clients."
+        "company": "English to Italian Machine Translation with Vanilla and Attention Mechanism",
+        "title": "Research paper based approach,Language Transaltor, Seq-Seq Model, Encoder-Decoder, Attention Mechanism",
+        "years": "Oct 2020 - Nov 2020",
+        "description": "Developed a model using Vanilla Encoder-Decoder and Attention mechanism with LSTM. Implemented Research paper of Bahdanau’s Attention Mechanism with three scoring functions named Dot Scoring, General Scoring, and Concat Scoring from Scratch To compare the results of all these Scoring functions and vanilla Encoder-Decoder BLUE score has been used for performance measure."
+      },
+      {
+        "company": "Image Segmentation on Indian Traffic Data",
+        "title": "Research paper based approach, Computer Vision, CNN, Image Segmentation",
+        "years": "Nov 2020 - Dec 2020",
+        "description": "Implemented CANET model by referring Attention-guided Chained Context Aggregation for Semantic Segmentation research paper from scratch. For Performance measure, IOU(Intersection Over Union) Score has used. The model will identify 21 different objects from image/video."
+      },
+      {
+        "company": "Document(Text) Classification using CNN",
+        "title": "Text preprocessing, CNN, Text Embedding, LSTM",
+        "years": "Aug 2020 - Sept 2020",
+        "description": "Trained two Deep CNN models one on word-level embedding and the second on character level embedding. In this task Data set contains 20 Newsgroups text data so the model predicts text into 20 different classes, Also Too much Preprocessing was required in this Task. Pre-trained Glove Vectors with 300d has been used for text embeddings. Model built using Keras functional API."
+      },
+      {
+        "company": "CNN on CIFAR Dataset",
+        "title": "Multiclass Classification, CNN, Research paper based approach, Densenet",
+        "years": "July 2020 - Aug 2020",
+        "description": "Trained two Deep CNN models one on word-level embedding and the second on character level embedding. In this task Data set contains 20 Newsgroups text data so the model predicts text into 20 different classes, Also Too much Preprocessing was required in this Task. Pre-trained Glove Vectors with 300d has been used for text embeddings. Model built using Keras functional API."
+      },
+      {
+        "company": "Microsoft Malware Detection",
+        "title": "Multiclass Classification, Training using XGBoost, Feature Engineering",
+        "years": "June 2020 - July 2020",
+        "description": "Implemented Multiclass classification Model using XGBoost Algorithm to classify different malware files into respected classes. There was a total of 9 Nine malware classes. Dataset Size was too large, Almost around 200 GB. Out of which 50GB of data was bytes files and 150GB of data was asm files. The main objective of this project is to minimize multiclass log loss as much as possible. I got a minimum logloss of 0.001. To get this much minimum log loss I made some high-level features like image feature from byte file and asm file etc. I have also used some feature selection techniques like the Chi-Square test etc."
+      },
+      {
+        "company": "Facebook Friend Recommendation",
+        "title": "Social link prediction, Feature Engineering, Supervised learning, Recommendation",
+        "years": "may 2020 - June 2020",
+        "description": "Facebook Recruiting Competition which was presented by kaggle in year 2012 and the data is also taken from kaggle.In dataset they have given 2 features source node and destination node which is in a Directed graph having nodes connected through an edge.The task of this project was to predict missing link in the dataset with highest probability. As they have only given links that are originally present in the graph and not given that link that are yet to be discovered so this was the main task of this project. In order to make it binary classification problem i made second class for links that are not actually present in the graph. Two performance metrics namely, F1 Score and Confusion matrix have been considered, as we desire the precision of our result (how precisely model recommend users) so it is good choice to use precision and recall, hence the f1 score have been used as performance metric. Created some high level features like preferential Attachment with followers and followees, svd dot features.I got 90+ test F1 score and test Auc score by fine tuning XGBoost model."
       }
     ],
     "skills": [
@@ -143,12 +173,8 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Naz must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "I wonder that the data science roles are exponentially increasing, and all I can think of recommending a person like sumit.He is an amazing talent to look on. He may be a fresher, but for sure he can be the game changer for any organisation with his in-depth knowledge and skills in Data Science.I am sure he rocks very very soon.",
+        "user": "Balaji Illur Data Engineer at Fokal.ai"
       }
     ]
   }
