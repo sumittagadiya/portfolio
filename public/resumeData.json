@@ -78,7 +78,7 @@
         "company": "CNN on CIFAR Dataset",
         "title": "Multiclass Classification, CNN, Research paper based approach, Densenet",
         "years": "July 2020 - Aug 2020",
-        "description": "Trained two Deep CNN models one on word-level embedding and the second on character level embedding. In this task Data set contains 20 Newsgroups text data so the model predicts text into 20 different classes, Also Too much Preprocessing was required in this Task. Pre-trained Glove Vectors with 300d has been used for text embeddings. Model built using Keras functional API."
+        "description": "Implemented Densenet Model by referring Densely Connected Convolutional Networks research paper and trained it from scratch.Densenet architecture is made by 2 blocks named Dense block and Transition block. Output block contains BatchNormalization, GlobalAvgPooling followed by a Softmax layer.By implementing Densenet Architecture I got 90% test accuracy which is pretty high."
       },
       {
         "company": "Microsoft Malware Detection",
@@ -91,6 +91,18 @@
         "title": "Social link prediction, Feature Engineering, Supervised learning, Recommendation",
         "years": "may 2020 - June 2020",
         "description": "Facebook Recruiting Competition which was presented by kaggle in year 2012 and the data is also taken from kaggle.In dataset they have given 2 features source node and destination node which is in a Directed graph having nodes connected through an edge.The task of this project was to predict missing link in the dataset with highest probability. As they have only given links that are originally present in the graph and not given that link that are yet to be discovered so this was the main task of this project. In order to make it binary classification problem i made second class for links that are not actually present in the graph. Two performance metrics namely, F1 Score and Confusion matrix have been considered, as we desire the precision of our result (how precisely model recommend users) so it is good choice to use precision and recall, hence the f1 score have been used as performance metric. Created some high level features like preferential Attachment with followers and followees, svd dot features.I got 90+ test F1 score and test Auc score by fine tuning XGBoost model."
+      },
+      {
+        "company": "Personalized Cancer Diagnosis",
+        "title": "Multiclass Classification, Supervied Learning",
+        "years": "March 2020 - April 2020",
+        "description": "Classify the given genetic variations/mutations based on evidence from text-based clinical literature. The objective of this project was to predict the probability of each data-point belonging to each of the nine classes. Multiclass log loss has been used as a performance metric. Interpretability and Class probabilities are most useful in this project. Random Forest, Logistic Regression and stacking Classifiers have been used."
+      },
+      {
+        "company": "Quora Question Pair Similarity",
+        "title": "Binary Classification, Supervied Learning, Preprocessing",
+        "years": "Feb 2020 - March 2020",
+        "description": "Identify which questions asked on Quora are duplicates of questions that have already been asked. Worked on feature extraction, text processing, and feature analysis. performed t-SNE on extracted features. Predicted the similarity by employing EDA, text processing, Random Forest, Logistic Regression, and XGBoost. Main task was predicting whether a pair of questions are duplicates or not."
       }
     ],
     "skills": [
@@ -174,7 +186,7 @@
     "testimonials": [
       {
         "text": "I wonder that the data science roles are exponentially increasing, and all I can think of recommending a person like sumit.He is an amazing talent to look on. He may be a fresher, but for sure he can be the game changer for any organisation with his in-depth knowledge and skills in Data Science.I am sure he rocks very very soon.",
-        "user": "Balaji Illur Data Engineer at Fokal.ai"
+        "user": "Balaji Illur Data Engineer at Yellow Messenger"
       }
     ]
   }
